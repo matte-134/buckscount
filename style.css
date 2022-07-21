@@ -1,0 +1,59 @@
+/* 
+  colors
+    white #f2f0eb;
+    black #27251F
+    lightgreen #00754a
+    extralightgreen #d4e9e2
+    darkgreen #1e3932
+*/
+* {
+  color: #27251F;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 70%;
+  background-color:#1e3932;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+h1 {
+  color: white;
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+header {
+  font-size: 4rem;
+  background-color: grey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid  grey;
+  padding: 2rem;
+}
+
+
+.city-item {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #00754a;
+  padding: 1rem;
+  font-size: 2rem;
+}
+/* your code */
